@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #a59292;
+  }
+  
+  .jumbotron {
+    padding-top: 6rem;
+    background-color: #000000;
+  }
+  
+  .icon ul li {
+    font-size: 30px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(184, 129, 129);
+    margin: auto -10px;
+    margin-right: 25px;
+    box-shadow: 2px 2px 5px #aeaeae, -4px -4px 5px white;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 1s;
+  }
+  
+  .icon ul li:nth-child(1):hover {
+    color: rgb(85, 71, 71);
+    border-radius: 50%;
+    background-color: #d8b7c9;
+  }
+  .icon ul li:nth-child(2):hover {
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(55, 55, 77);
+  }
+  .icon ul li:nth-child(3):hover {
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(85, 75, 75);
+  }
+  .icon ul li:nth-child(4):hover {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #586970;
+  }
+  .icon ul li:nth-child(5):hover {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #d3768594;
+  }
+  .icon ul li a {
+    color: rgb(39, 26, 26);
+    text-align: center;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  #skill {
+    background-color: hsl(0, 0%, 0%);
+  }
+  .skill-box {
+    position: relative;
+    background-color: hsl(0, 13%, 23%);
+    border-radius: 10px;
+    height: 300px;
+  }
+  
+  .skill-img {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate3d(-50%, -52%, 80px);
+    max-width: 220px;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  
+  #contact {
+    background-color: #2e3335;
+  }
+  
